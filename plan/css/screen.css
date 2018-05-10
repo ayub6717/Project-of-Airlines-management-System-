@@ -1,0 +1,175 @@
+
+Screen.css:
+
+
+/* Resets */
+ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style:none;
+}
+h1, h2 {
+    padding:0;
+    margin:0 0 20px 0;
+    font-weight:normal;
+}
+p {
+    padding:0;
+    margin:0 0 20px 0;
+}
+a:link, a:visited {
+    text-decoration:underline;
+    color:#000;
+}
+a:hover {
+    text-decoration:none;
+	color:#886BE9;
+}
+
+ul li {
+    padding:5px 0;
+	list-style-type:none;
+}
+ul li input[type="text"], ul li input[type="password"] {
+    width:200px;
+}
+/* Headers */
+h1 {
+    font-size:1.8em;
+}
+h2 {
+    font-size:1.4em;
+}
+.logo {
+	
+    font:2em Arial;
+    margin:0 0 10px 0;
+    padding:0;
+    width:200px;
+    color:#fff;
+}
+/* Containers */
+body {
+    background-image: url("background.jpg");
+    font-family:Arial;
+    font-size:0.8em;
+}
+#container, footer {
+    background:#f1f1f1;
+    width:920px;
+    margin:0 auto;
+    padding:20px;
+}
+header {
+    width:940px;
+    padding:10px;
+    margin:0 auto 10px auto;
+}
+#container {
+    min-height:610px;
+    border-radius:5px 5px 0 0;
+}
+footer {
+    border-radius:0 0 5px 5px;
+}
+.widget {
+    margin-bottom:20px;
+}
+.widget h2 {
+    margin:0 0 10px 0;
+    padding:0 5px;
+    font-weight:normal;
+    border-bottom:1px solid #ddd;
+}
+.widget .inner {
+    margin:0 10px;
+}
+/* Navigation */
+nav {
+    float:left;
+}
+nav ul {
+    margin:0;
+}
+nav ul li {
+    display:inline;
+    margin-right:10px;
+}
+nav ul li a {
+    text-decoration:none;
+}
+nav ul li.current {
+    font-weight:bold;
+}
+nav ul li a.last {
+    border-right:0;
+}
+/* Aside */
+aside {
+    width:260px;
+    float:right;
+    border-left:1px dashed #aaa;
+    padding-left:15px;
+
+}
+/* Login */
+#login li.link {
+    margin-top:5px;
+}
+/* Footer */
+footer {
+    border-top:1px dashed #ddd;
+    color:#999;
+}
+/* Misc */
+.clear {
+    clear:both;
+}
+
+
+/* flights*/
+#flights{
+	position:absolute;
+	top:180px;
+	left:20%;
+	}
+	p,select,input,button{
+	margin:3px;
+	padding:5px;
+	
+	}
+	#find{
+	position:absolute;
+	top:225px;
+	left:5px;
+	width:150px;
+	height:30px;
+	}
+	#place{
+	position:absolute;
+	top:130px;
+	}
+	select{
+	border-color:rgba(0,0,0,.15);
+	}	
+	#submenu {
+
+    padding:10px;
+    
+	}
+	/*flight page banner*/
+	#banner {
+	position:absolute;
+	top:440px;
+	
+	
+	}
+	#dateFormat{
+    font-size:8pt;
+    font-family:Verdana;
+    padding: 5px;
+}
+#errors{
+color:red;
+}
+
